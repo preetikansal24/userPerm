@@ -1,0 +1,30 @@
+[
+  {
+    "fields": {
+      "name": "Admin"
+    },
+    "pk": 1,
+    "model": "userApp.group"
+  },
+  {
+    "fields": {
+      "name": "Technology"
+    },
+    "pk": 2,
+    "model": "userApp.group"
+  },
+  {
+    "fields": {
+      "name": "Staff"
+    },
+    "pk": 3,
+    "model": "userApp.group"
+  },
+  {
+    "fields": {
+      "name": "Manager"
+    },
+    "pk": 4,
+    "model": "userApp.group"
+  }
+]

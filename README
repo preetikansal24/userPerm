@@ -1,0 +1,44 @@
+Instructions :
+
+##Setup
+
+Clone the project:
+
+    git clone <repo path>
+
+Setup a virtual env
+
+    virtualenv ve
+
+Start Virtual ENV
+
+    source ve/bin/activate
+
+GOTO Directory
+
+cd
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Create a DB user_management
+
+Copy local settings
+
+cp userPerm/settings/local_settings.py.back userPerm/settings/local_settings.py
+
+Run Migration
+
+python manage.py migrate
+
+Start Server
+
+python manage.py runserver 8000
+
+
+##Check for api's
+
+By default, I have kept some values in resources and groups and action type. Sharing a postman collection with you,
+Please call the api's to create some data and finally given some values : Check if a user has access to a particular
+resource or not.

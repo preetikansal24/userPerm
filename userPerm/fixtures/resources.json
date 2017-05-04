@@ -1,0 +1,34 @@
+[
+  {
+    "fields": {
+      "name": "Google",
+      "url": "www.google.com"
+    },
+    "pk": 1,
+    "model": "userApp.resource"
+  },
+  {
+    "fields" : {
+      "name" : "Yahoo",
+      "url" : "www.yahoo.com"
+    },
+    "pk" :2,
+    "model" : "userApp.resource"
+  },
+  {
+    "fields" : {
+      "name" : "Grofers",
+      "url" : "www.grofers.com"
+    },
+    "pk" :3,
+    "model" : "userApp.resource"
+  },
+  {
+    "fields" : {
+      "name" : "foo",
+      "url" : "www.foo.com"
+    },
+    "pk" :4,
+    "model" : "userApp.resource"
+  }
+]

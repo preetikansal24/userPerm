@@ -1,0 +1,22 @@
+[{
+    "fields" : {
+        "name" : "READ"
+    },
+    "model" : "userApp.actiontype",
+    "pk" : 1
+    },
+    {
+    "fields" : {
+        "name" : "WRITE"
+    },
+    "model" : "userApp.actiontype",
+    "pk" : 2
+    },
+    {
+    "fields" : {
+        "name" : "DELETE"
+    },
+    "model" : "userApp.actiontype",
+    "pk" : 3
+    }
+]
